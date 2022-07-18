@@ -102,3 +102,37 @@ article{
     grid-template-columns: repeat(3,1fr);
     column-gap: 22px;
 }
+
+@media only screen and (max-width:688px){
+
+    .players,
+    .article-grid,
+    .courses{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .container{
+        width: 100%;
+    }
+
+    .player{
+
+        align-items: center;
+        flex-direction: column;
+    }
+    
+     
+    
+
+     article{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+   
+    .course{
+        /* margin-left: 10px; */
+        flex-direction: column;
+        
+    }
+    
+}
